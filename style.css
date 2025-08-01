@@ -1,0 +1,160 @@
+@media (max-width:376px){
+    body{
+        width:375px;
+        height: auto;
+        margin: 0rem;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: hsl(0, 0%, 100%);
+        width: auto;   
+        height: auto;
+    }
+
+    img{
+        object-fit:cover;
+        width: 100%;
+    }
+    .content{
+        margin: 0rem 2rem 1.5rem 2rem;
+    }
+
+    p{
+        font-family: 'Outfit';
+        color: hsl(30, 10%, 34%);
+        font-size: 1rem;
+    }
+
+    li p{
+        margin-left: 1.2rem;
+    }
+    
+    .indent{
+        margin-left: 1.5rem;
+        margin-top: 0rem;   
+    }
+
+    .indent p{
+        font-size: 1.1rem;
+    }
+
+    ol{
+        color: hsl(14, 45%, 36%);
+        font-size: 1rem;
+        font-family: 'Outfit';
+        padding-left: 1.5rem;
+    }
+    ol li{
+        font-size: 1.2rem;
+    }
+    
+    ol p{
+        text-align: left;
+    }
+
+
+}
+
+@media (min-width:1440px){
+    body{
+        background-color: hsl(30, 54%, 90%);
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        height: auto;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: hsl(0, 0%, 100%);
+        width: 57rem;
+        height: auto;
+        margin: 0px  30rem 0px 30rem;
+        border-radius: 1rem;
+    }
+
+    img{
+        object-fit:cover;
+        width: 90%;
+        border-radius: 1rem;
+        margin: 3rem 3rem 3rem 3rem;
+    }
+
+    .content{
+        margin: 0rem 3rem 3rem 3rem;
+    }
+    
+    .indent{
+        margin-left: 2rem;   
+    }
+
+    p{
+        font-family: 'Outfit';
+        color: hsl(30, 10%, 34%);
+        font-size: 1.3rem;
+        margin-left: 1rem;
+    }
+
+    ol{
+        color: hsl(14, 45%, 36%);
+        font-size: 1.5rem;
+        font-family: 'Outfit';
+    }
+
+    ol li{
+        text-align: justify;
+    }
+
+}
+
+
+h1{
+    font-family: 'Young Serif';
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    text-shadow: none;
+    text-decoration: none;
+}
+
+h3{
+    color :hsl(332, 51%, 32%);
+    font-family: 'Outfit';
+}
+
+
+.rose-para{
+    background-color: hsl(330, 100%, 98%);  
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+td {
+    font-family: 'Outfit';
+    font-size: 1rem;
+}
+
+td:nth-child(1){
+    text-indent: 2rem;
+}
+td:nth-child(2){
+    color: hsl(14, 45%, 36%);
+    font-weight:bolder;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
